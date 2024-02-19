@@ -15,5 +15,3 @@ class Solution:
         if len(res) == 1:
             return len(res[0])
         return len(max(res, key = len))
-
-        
